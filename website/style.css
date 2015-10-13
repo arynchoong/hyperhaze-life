@@ -1,0 +1,48 @@
+/**
+ * Hyper Haze Hackathon
+ *
+ * @link    http://www.hackathon.io/haze3 for Team Project
+ * @link    http://www.hackathon.io/hyper-haze for Hackathon Site
+ * @author  Zion Ng <zion@intzone.com>
+ * @version 2015-10-13T12:00+08:00 zion.ng
+ */
+
+html,
+body {
+  background-color: white; /* #d5f6ff */
+  background-image: url(images/background.jpg);
+  background-repeat: no-repeat;
+  color: #003380;
+}
+a { color: #ff4000; }
+a:hover { color: #c04000; }
+th, td {
+  text-align: center;
+}
+
+
+/* Navigation */
+.navbar .nav>li>a {
+  margin-top: 5px;
+  padding: 10px;
+  text-shadow: none;
+}
+.navbar .nav>li>a:hover,
+.navbar .dropdown-menu>li>a:hover  {
+  background-color: #0088cc;
+  background-image: none;
+  color: white;
+}
+.navbar-collapse.in { overflow-y: visible; /* no scrollbars when dropdown menu is clicked in phone mode */ }
+@media (min-width: 768px) { /* Tablet and desktop mode */
+  .navbar .nav>li:hover ul { display: block; /* show dropdown on hover */ }
+}
+@media (max-width: 767px) { /* Phone mode */
+  .phone-center { text-align: center; }
+  .nav-pills>li { float: none; /* stack instead of inline */ }
+  .dropdown-menu { /* center dropdown menu */
+    left: 5%;
+    right: 5%;
+  }
+  .dropdown-menu>li>a { font-style: italic; /* distinguish between 1st and 2nd level */ }
+}
