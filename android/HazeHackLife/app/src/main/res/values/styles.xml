@@ -1,0 +1,51 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:background">@color/background</item>
+        <item name="android:actionModeBackground">@color/primary_dark</item>
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+        <item name="android:actionModeStyle">@style/MyActionMode</item>
+        <item name="android:color">@color/primary_light</item>
+        <item name="android:textColor">@color/primary_darker</item>
+        <item name="android:textColorPrimary">@color/primary_darker</item>
+        <!-- Customize your theme here. -->
+        <!-- Main theme colors -->
+        <!--   your app branding color for the app bar -->
+        <item name="colorPrimary">@color/primary_dark</item>
+        <!--   darker variant for the status bar and contextual app bars -->
+        <item name="colorPrimaryDark">@color/primary_darker</item>
+        <!--   theme UI controls like checkboxes and text fields -->
+        <item name="colorAccent">@color/primary_light</item>
+        <item name="color">@color/primary_light</item>
+        <!-- Support library compatibility -->
+        <item name="background">@color/background</item>
+        <item name="actionModeBackground">@color/primary_dark</item>
+        <item name="actionModeStyle">@style/MyActionMode</item>
+        <item name="actionBarStyle">@style/MyActionBar</item>
+    </style>
+
+    <style name="MyActionBar" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/primary_dark</item>
+        <item name="android:color">@color/primary_light</item>
+        <item name="android:textColorPrimary">@color/primary_darker</item>
+        <item name="android:titleTextStyle">@style/myTitleText</item>
+
+        <item name="color">@color/primary_light</item>
+        <item name="background">@color/primary_dark</item>
+        <item name="titleTextStyle">@style/myTitleText</item>
+    </style>
+    <style name="MyActionMode" parent="Widget.AppCompat.ActionMode">
+        <item name="android:background">@color/primary_dark</item>
+        <item name="android:color">@color/primary_light</item>
+        <item name="android:textColor">@color/primary_darker</item>
+        <item name="android:textColorPrimary">@color/primary_darker</item>
+
+        <item name="color">@color/primary_light</item>
+        <item name="background">@color/primary_dark</item>
+    </style>
+
+    <style name="myTitleText" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/primary_darker</item>
+    </style>
+</resources>

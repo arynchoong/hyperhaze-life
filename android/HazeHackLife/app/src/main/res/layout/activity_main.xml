@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/photo01" />
+
+    <TextView android:text="@string/photo01" android:layout_width="wrap_content"
+        android:id="@+id/text01"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageButton" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton2"
+        android:layout_below="@+id/text01"
+        android:src="@drawable/photo02" />
+
+    <TextView android:text="@string/photo02" android:layout_width="wrap_content"
+        android:id="@+id/text02"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageButton2" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton3"
+        android:layout_below="@+id/text02"
+        android:src="@drawable/photo03" />
+
+    <TextView android:text="@string/photo03" android:layout_width="wrap_content"
+        android:id="@+id/text03"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageButton3" />
+
+</RelativeLayout>

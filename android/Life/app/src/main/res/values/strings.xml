@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Life</string>
+
+    <string name="title_section1">PSI Index</string>
+    <string name="title_section2">Plan</string>
+    <string name="title_section3">Better</string>
+    <string name="title_section4">Change</string>
+    <string name="title_section5">Learn</string>
+    <string name="title_section6">Photos</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example"> </string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_photo">Uploaded Photos</string>
+
+    <string name="photo01">Wheel of Fortune at 9am, Tue 13 Oct 2015</string>
+    <string name="photo02">Titanic approaching at 4pm, Wed 14 Oct 2015</string>
+    <string name="photo03">Singapore Zoo at 10pm, Thu 15 Oct 2015</string>
+</resources>
