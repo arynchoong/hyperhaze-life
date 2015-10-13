@@ -12,3 +12,12 @@
 <div class="text-center">
   <img src="images/hyperhaze.jpg" />
 </div>
+<br /><br />
+
+<big><big>
+  <b><u>LIFE Team</u></b><br />
+  Clara Lock<br>
+  Song Junxian<br>
+  Choong Yue Lin<br>
+  Zion Ng
+</big></big>
