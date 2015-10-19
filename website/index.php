@@ -54,5 +54,8 @@ include 'inc.php';
       ?>
       <br /><br />
     </div>
+    
+    <!-- Inline scripts loaded at bottom for performance -->
+    <script type="text/javascript" src="/library/bootstrap/3.2.0/js/bootstrap.min.js"></script>
   </body>
 </html>
